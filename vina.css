@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap'); /*font-family: 'Jost', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Red+Hat+Display&display=swap'); /*font-family: 'Red Hat Display', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap'); /*font-family: 'Tilt Prism', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Tilt+Prism&display=swap'); /*font-family: 'Rubik Iso', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap'); /*font-family: 'Rampart One', cursive;*/
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 0px;
+}
+
+body{
+
+background: linear-gradient(#049DBF, #72EDDE);
+
+}
+
+h1 {
+	color:#094036;
+	font-family: 'Rubik Iso', cursive;
+	font-size: 35pt;
+	text-align: center;
+	text-shadow: 0px 0px 4px #A8F207;
+	padding-top: 2vh;
+}
+h2{
+	color:#05F2F2;
+	text-shadow: 1px 1px 8px black;
+	font-size: 25pt;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+
+
+}
+
+h3{
+	color:#F8CBC9;
+	text-shadow: 1px 1px 3px #F2275D;
+	font-size: 25pt;
+	text-align: right;
+	font-family: 'Jost', sans-serif;
+	padding-right: 2vw;
+
+
+}
+
+p{
+	font-family: 'Rampart One', cursive;
+	font-size: 20pt;
+	text-align: center;
+	color: #0A2606;
+
+}
+#topo{
+
+	width: 100vw;
+	height: 22vh;
+	background: linear-gradient(#C5A3F7, #72EDDE);
+	margin-top: -2vh;
+}
+
+#imagem{
+	width: 100%;
+	height: 100%;
+	margin-top: 2vh;
+	display: flex;
+
+}
+
+#imagem2{
+	width: 100%;
+	height: 100%;
+	display: flex;
+
+}
+
+
+#home{
+	width: 80vw;
+	height: 46vh;
+	animation-name: animacao;
+	animation-duration: 6s;
+	font-family: 'Rubik Iso', cursive;
+	text-align: center;
+	float: fixed;
+	margin-left: 10vw;
+	padding-top: 10vh;
+	
+}
+@keyframes animacao{
+	0%{
+		background: linear-gradient(#606BA6, #C5A3F7);
+		font-size: 0.8rem;
+		text-indent: 10%;
+		color: #72EDDE;
+
+	}
+	45%{
+		background: linear-gradient(#F1A0F2, #F26E50);
+		font-size: 1.2rem;
+		text-indent: 15%;
+		color: #F2AD94;
+	}
+	70%{
+		background: linear-gradient(#F26E50, #F1BBF2);
+		text-indent: 25%;
+		color: #F2CED0;
+		box-shadow: 25px 25px 7px #A3D9C9;
+	}
+}
+footer{
+
+	height: 20vh;
+	width: 100vw;
+	background: linear-gradient(#72EDDE, #C5A3F7);
+}
